@@ -31,7 +31,7 @@ import "/public/css/splitting.css";
 // import "../app/styles/app.css";
 // import "../app/styles/main.css";
 // import "../app/styles/mobile-nav.css";
-// import Footer from "./components/common/footer";
+import Footer from "./components/common/footer";
 
 export const metadata = {
 	title: "Visitrack",
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
 				<Header/>
 				{/* <ImportBsJS /> */}
 				{children}
-				{/* <Footer/> */}
+				<Footer/>
 				{/* <ScrollToTop /> */}
 			</body>
 		</html>
