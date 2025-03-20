@@ -10,7 +10,7 @@ export const metadata = {
 function Features() {
 	return (
 		<>
-			<BreadCrumb title="Service" />
+			<BreadCrumb title="Features" />
 			<Services />
 			<AutoSlider />
 			<About />
