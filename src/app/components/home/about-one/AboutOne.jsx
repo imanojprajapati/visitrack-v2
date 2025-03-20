@@ -5,6 +5,7 @@ import Icon8 from "@/public/images/v2/icon8.png";
 import Image from "next/image";
 import FadeInRight from "@/src/app/components/animation/FadeInRight";
 import TextSplitFadeIn from "@/src/app/components/animation/TextSplitFadeIn";
+
 function AboutOne() {
 	return (
 		<section className="section sofax-section-padding2">
@@ -19,12 +20,11 @@ function AboutOne() {
 						<div className="sofax-default-content">
 							<div className="tg-heading-subheading ">
 								<h2 className="tac">
-									<TextSplitFadeIn> Easily trade anytime, anywhere on the go</TextSplitFadeIn>
+									<TextSplitFadeIn> Effortless Event Management, Anytime</TextSplitFadeIn>
 								</h2>
 							</div>
 							<p className="tac">
-								Our user-friendly mobile app is designed for convenience, ensuring you can execute
-								trades & manage your portfolio effortlessly anytime anywhere.
+								Manage your event on the go with VISITRACK’s mobile app, offering seamless registration, tracking, and analytics anytime, anywhere.
 							</p>
 							<div className="extra-mt">
 								<div className="sofax-content-iconbox-wrap">
@@ -32,10 +32,9 @@ function AboutOne() {
 										<Image src={Icon6} alt="Icon6" />
 									</div>
 									<div className="sofax-iconbox-data">
-										<h4>Largest public crypto app</h4>
+										<h4>All-in-One Event Management</h4>
 										<p>
-											Buy & sell popular digital currencies, keep track of them in the one place &
-											watch currencies you’re interested.
+											Streamline registration, badge printing, and tracking in one platform.
 										</p>
 									</div>
 								</div>
@@ -44,10 +43,9 @@ function AboutOne() {
 										<Image src={Icon7} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
-										<h4>Your assets are protected</h4>
+										<h4>Data Security</h4>
 										<p>
-											Robust security features, such as two-factor authentication & encryption, to
-											protect users accounts and transactions.
+											Ensure your event data is protected with encryption and GDPR compliance.
 										</p>
 									</div>
 								</div>
@@ -56,10 +54,9 @@ function AboutOne() {
 										<Image src={Icon8} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
-										<h4>Get the help you need when you need it</h4>
+										<h4>Instant Support</h4>
 										<p>
-											Leading crypto app with top-notch security and robust asset protection.
-											Access assistance whenever you need it.
+											Get the help you need quickly to keep your event running smoothly.
 										</p>
 									</div>
 								</div>

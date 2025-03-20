@@ -4,6 +4,7 @@ import Link from "next/link";
 import FadeInLeft from "@/src/app/components/animation/FadeInLeft";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
 import TextSplitFadeIn from "@/src/app/components/animation/TextSplitFadeIn";
+
 function CtaOne() {
 	return (
 		<section className="section sofax-section-padding2 bg-light">
@@ -19,22 +20,19 @@ function CtaOne() {
 							<div className="tg-heading-subheading ">
 								<h2>
 									<TextSplitFadeIn>
-										Buy, sell & securely store a wide range of cryptocurrencies.
+										Streamline event management with VISITRACK.
 									</TextSplitFadeIn>
 								</h2>
 							</div>
 							<p>
-								You can now manage your cryptocurrencies with ease by buying, selling, storing &
-								transferring them all in one place. Additionally, you can acquire the right to buy or
-								sell stocks for a specific price with no commission fees.
+								Experience hassle-free event management with VISITRACK. From seamless visitor registration to real-time tracking, we provide everything you need to enhance attendee experience and boost event security.
 							</p>
 							<p>
-								Finally, you can buy, sell and securely store a variety of cryptocurrencies with this
-								app and protect your crypto with best-in-className cold storage.
+								Whether it’s a corporate conference or a trade show, VISITRACK offers robust analytics, badge printing, and live insights, making it the ultimate solution for modern event organizers.
 							</p>
 							<FadeInUp className="extra-mt">
-								<Link className="sofax-default-btn pill" data-text="Sign up now" href="/sign-up">
-									<span className="button-wraper">Sign up now</span>
+								<Link className="sofax-default-btn pill" data-text="Get started now" href="/sign-up">
+									<span className="button-wraper">Get started now</span>
 								</Link>
 							</FadeInUp>
 						</div>

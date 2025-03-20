@@ -22,13 +22,11 @@ function CtaTwo() {
 						<div className="sofax-default-content ml-30">
 							<div className="tg-heading-subheading ">
 								<h2>
-									<TextSplitFadeIn> Download and start your crypto journey </TextSplitFadeIn>
+									<TextSplitFadeIn>Download and Elevate Your Event Management</TextSplitFadeIn>
 								</h2>
 							</div>
 							<p>
-								Embark on your crypto journey effortlessly! Download our user-friendly app, create an
-								account in minutes, and step into the exciting world of digital assets. Begin buying and
-								selling cryptocurrencies with ease.
+							Step into the future of event management with VISITRACK! Download our intuitive app, easily register attendees, and streamline check-ins with cutting-edge technology. Enhance security, track real-time data, and optimize every event experience effortlessly.
 							</p>
 							<FadeInUp className="extra-mt">
 								<Link className="sofax-default-btn pill" data-text="Sign up now" href="/sign-up">

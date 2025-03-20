@@ -1,9 +1,10 @@
-import Thumb from "@/public/images/v2/contentthumb2.png";
+import Thumb from "@/public/images/v2/contentthumb2.png"; 
 import Icon from "@/public/images/v2/icon9.png";
 import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "@/src/app/components/animation/FadeInStaggerTwo";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
 import TextSplitFadeIn from "@/src/app/components/animation/TextSplitFadeIn";
+
 function WhyChooseUs() {
 	return (
 		<section className="section sofax-section-padding3">
@@ -18,12 +19,11 @@ function WhyChooseUs() {
 						<div className="sofax-default-content fs-19">
 							<div className="tg-heading-subheading ">
 								<h2 className="tac">
-									<TextSplitFadeIn> Lightning-fast crypto trading in just 3 steps</TextSplitFadeIn>
+									<TextSplitFadeIn> Streamline Your Event Management with VISITRACK</TextSplitFadeIn>
 								</h2>
 							</div>
 							<p className="tac">
-								One of the largest and best-known cryptocurrency platforms offering a user-friendly
-								interface to buy, sell & manage various cryptocurrencies in easy steps.
+								Organize your events with ease! VISITRACK offers a seamless, secure, and efficient solution for registration, check-ins, and real-time tracking, ensuring a hassle-free experience for both organizers and attendees.
 							</p>
 							<div className="extra-mt">
 								<FadeInStaggerTwo className="accordion sofax-accordion-wrap1" id="sofax-accordion">
@@ -35,7 +35,7 @@ function WhyChooseUs() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseOne"
 											>
-												1. Download and create an account easily
+												1. Effortless Visitor Registration
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -47,8 +47,7 @@ function WhyChooseUs() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												Effortlessly begin your cryptocurrency journey by downloading our
-												user-friendly app. Within minutes, you can create a secure account.
+												Simplify the registration process with VISITRACK’s online pre-registration and on-site kiosks. Enhance security and efficiency through QR code-based check-ins for seamless entry.
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>
@@ -60,7 +59,7 @@ function WhyChooseUs() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseTwo"
 											>
-												2. Link your bank account & make a payment
+												2. Real-Time Attendee Tracking
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -72,8 +71,7 @@ function WhyChooseUs() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												Effortlessly begin your cryptocurrency journey by downloading our
-												user-friendly app. Within minutes, you can create a secure account.
+												Monitor real-time attendee movements with VISITRACK’s entry and exit tracking. Our live dashboards provide up-to-the-minute data on visitor attendance, helping you optimize your event flow.
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>
@@ -85,7 +83,7 @@ function WhyChooseUs() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseThree"
 											>
-												3. Start buying & selling crypto as you wish
+												3. Secure Badge Printing & Access Control
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -97,8 +95,7 @@ function WhyChooseUs() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												Effortlessly begin your cryptocurrency journey by downloading our
-												user-friendly app. Within minutes, you can create a secure account.
+												Produce customizable, RFID-enabled badges for each attendee. VISITRACK ensures that only authorized individuals have access to restricted event areas.
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>

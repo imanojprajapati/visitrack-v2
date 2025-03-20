@@ -1,5 +1,6 @@
 import Icon from "@/public/images/v2/icon9.png";
 import Image from "next/image";
+
 function FaqAccordion() {
 	return (
 		<>
@@ -12,7 +13,7 @@ function FaqAccordion() {
 							data-bs-toggle="collapse"
 							data-bs-target="#collapseOne"
 						>
-							How do I make money with cryptocurrencies?
+							How does VISITRACK streamline event registration?
 						</button>
 						<div className="accordion-icon">
 							<Image src={Icon} alt="Icon" />
@@ -24,8 +25,7 @@ function FaqAccordion() {
 						data-bs-parent="#sofax-accordion2"
 					>
 						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
+							VISITRACK simplifies visitor registration with online pre-registration, on-site kiosks, and QR code-based check-ins for a smooth event experience.
 						</div>
 					</div>
 				</div>
@@ -37,7 +37,7 @@ function FaqAccordion() {
 							data-bs-toggle="collapse"
 							data-bs-target="#collapseTwo"
 						>
-							Is cryptocurrency used for illegal activies?
+							How does VISITRACK enhance event security?
 						</button>
 						<div className="accordion-icon">
 							<Image src={Icon} alt="Icon" />
@@ -45,8 +45,7 @@ function FaqAccordion() {
 					</h3>
 					<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion2">
 						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
+							VISITRACK enhances security with RFID-enabled badges, real-time tracking, and role-based access control to ensure only registered attendees access restricted areas.
 						</div>
 					</div>
 				</div>
@@ -58,7 +57,7 @@ function FaqAccordion() {
 							data-bs-toggle="collapse"
 							data-bs-target="#collapseThree"
 						>
-							How to start trading in cryptocurrency?
+							How does VISITRACK help with attendee engagement?
 						</button>
 						<div className="accordion-icon">
 							<Image src={Icon} alt="Icon" />
@@ -66,8 +65,7 @@ function FaqAccordion() {
 					</h3>
 					<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion2">
 						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
+							VISITRACK offers personalized attendee schedules, heatmaps for booth engagement, and real-time analytics to help exhibitors understand visitor interests and optimize interactions.
 						</div>
 					</div>
 				</div>
@@ -81,7 +79,7 @@ function FaqAccordion() {
 							data-bs-toggle="collapse"
 							data-bs-target="#collapseFour"
 						>
-							What is the coin to invest in today?
+							How does VISITRACK integrate with ticketing systems?
 						</button>
 						<div className="accordion-icon">
 							<Image src={Icon} alt="Icon" />
@@ -93,8 +91,7 @@ function FaqAccordion() {
 						data-bs-parent="#sofax-accordion3"
 					>
 						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
+							VISITRACK seamlessly integrates with ticketing and CRM systems to simplify ticket sales, payment processing, and attendee data management.
 						</div>
 					</div>
 				</div>
@@ -106,7 +103,7 @@ function FaqAccordion() {
 							data-bs-toggle="collapse"
 							data-bs-target="#collapseFive"
 						>
-							How can one buy/sell crypto tokens?
+							What types of events can benefit from VISITRACK?
 						</button>
 						<div className="accordion-icon">
 							<Image src={Icon} alt="Icon" />
@@ -114,8 +111,7 @@ function FaqAccordion() {
 					</h3>
 					<div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion3">
 						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
+							VISITRACK is ideal for trade shows, corporate conferences, educational fairs, and government events, helping organizers manage registration, security, and engagement.
 						</div>
 					</div>
 				</div>
@@ -127,7 +123,7 @@ function FaqAccordion() {
 							data-bs-toggle="collapse"
 							data-bs-target="#collapseSix"
 						>
-							How to start tranding in cryptocurrency?
+							How can exhibitors benefit from VISITRACK?
 						</button>
 						<div className="accordion-icon">
 							<Image src={Icon} alt="Icon" />
@@ -135,8 +131,7 @@ function FaqAccordion() {
 					</h3>
 					<div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion3">
 						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
+							Exhibitors can capture leads, track booth engagement, and access real-time data to improve their ROI and follow-up strategies.
 						</div>
 					</div>
 				</div>
