@@ -7,6 +7,7 @@ export const metadata = {
 	title: "Contact Us || Visitrack",
 	description: "",
 };
+
 function ContactUs() {
 	return (
 		<>
