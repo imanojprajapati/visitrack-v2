@@ -17,10 +17,10 @@ import "swiper/css/scrollbar";
 import "react-toastify/dist/ReactToastify.css";
 
 // Bootstrap js
-// import ImportBsJS from "@/src/app/components/BootstrapClient";
+import ImportBsJS from "@/src/app/components/BootstrapClient";
 
 // ScrollToTop
-// import ScrollToTop from "@/src/app/hooks/ScrollToTop";
+import ScrollToTop from "@/src/app/hooks/ScrollToTop";
 
 import Header from "./components/common/header";
 // main css
@@ -43,10 +43,10 @@ export default function RootLayout({ children }) {
 			 <link rel="icon" type="image/png" href="/favicon.png" />
 			<body className={`${inter.variable} ${DMSans.variable} ${clashGrotesk.variable}`}>
 				<Header/>
-				{/* <ImportBsJS /> */}
+				<ImportBsJS />
 				{children}
 				<Footer/>
-				{/* <ScrollToTop /> */}
+				<ScrollToTop />
 			</body>
 		</html>
 	);
