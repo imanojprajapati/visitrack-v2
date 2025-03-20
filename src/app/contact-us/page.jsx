@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from '@/src/app/components/contact-us/index'
 import MyMap from '@/src/app/components/contact-us/MyMap'
-import BreadCrumb from '@/src/app/components/common/breadcrumb'
+import BreadCrumb from '@/src/app/components/common/Breadcrumb'
 
 export const metadata = {
 	title: "Contact Us || Visitrack",
