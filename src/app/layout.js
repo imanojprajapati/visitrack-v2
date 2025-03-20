@@ -22,7 +22,7 @@ import "react-toastify/dist/ReactToastify.css";
 // ScrollToTop
 // import ScrollToTop from "@/src/app/hooks/ScrollToTop";
 
-// import Header from "./components/common/header";
+import Header from "./components/common/header";
 // main css
 import "/public/css/main.css";
 import "/public/css/mobile-nav.css";
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			 <link rel="icon" type="image/png" href="/favicon.png" />
 			<body className={`${inter.variable} ${DMSans.variable} ${clashGrotesk.variable}`}>
-				{/* <Header/> */}
+				<Header/>
 				{/* <ImportBsJS /> */}
 				{children}
 				{/* <Footer/> */}
