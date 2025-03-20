@@ -3,7 +3,7 @@ import Link from "next/link";
 import CopyRight from "./CopyRight";
 
 import Field from "@/src/app/components/common/Field";
-import Logo from "@/public/images/logo/logo-white.svg";
+import Logo from "@/public/images/mains/main-logo.png";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
@@ -32,8 +32,7 @@ function Footer() {
 									<Image src={Logo} alt="Logo" />
 								</Link>
 								<p>
-									Sofax is best softwere platform manage your sales depends on your specific business
-									needs budget & industry.
+								VISITRACK streamlines event management with easy registration, real-time tracking, and enhanced security.
 								</p>
 								<div className="sofax-social-icon">
 									<ul>

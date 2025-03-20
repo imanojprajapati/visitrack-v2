@@ -1,4 +1,4 @@
-import Logo from "@/public/images/logo/logo-dark.svg";
+import Logo from "@/public/images/mains/main-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 function HeaderLogo() {

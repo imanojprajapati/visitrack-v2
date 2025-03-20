@@ -8,52 +8,32 @@ const sliderData = [
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Digital Marketing Agency",
+		txt: "QR Code",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Start Up Business",
+		txt: "Instant Notifications",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Social Media Markating",
+		txt: "Real-time Registration",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Social Media Markating",
+		txt: "Registration Management",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Start Up Business",
+		txt: "Instant Badge Printing",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Digital Marketing Agency",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Icon1,
-		txt: "Start Up Business",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Icon1,
-		txt: "Social Media Markating",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Icon1,
-		txt: "Social Media Markating",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Icon1,
-		txt: "Start Up Business",
+		txt: "Smart Check-In",
 	},
 ];
 

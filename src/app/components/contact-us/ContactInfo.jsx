@@ -20,7 +20,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Give us a call</h4>
-					<p>QGive us a ring at (+088-234-567-90). Every monday-friday from 9 am to 5 pm.</p>
+					<p>QGive us a ring at (+9197277 72798). Every monday-friday from 9 am to 5 pm.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
