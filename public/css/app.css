@@ -8558,5 +8558,13 @@ button#sofax-submit-btn:hover {
 	background: hsl(72, 100%, 50%);
 }
 
+.all-heading-color {
+	color: #005CC6;
+}
+
+.all-para-color {
+	color: #00AECD;
+}
+
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */

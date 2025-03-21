@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function ServiceCard({ service: { title, description, icon } }) {
+function FeaturesCard({ service: { title, description, icon } }) {
 	return (
 		<div className="sofax-service-iconbox-wrap">
 			<div className="sofax-service-iconbox-data">
@@ -14,4 +14,4 @@ function ServiceCard({ service: { title, description, icon } }) {
 	);
 }
 
-export default ServiceCard;
+export default FeaturesCard;

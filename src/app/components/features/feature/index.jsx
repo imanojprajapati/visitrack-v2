@@ -5,7 +5,7 @@ import image4 from "@/public/images/service/account-management.png";
 import image5 from "@/public/images/service/achieve.png";
 import image6 from "@/public/images/service/checked.png";
 import FadeInStagger from "@/src/app/components/animation/FadeInStagger";
-import ServiceCard from "@/src/app/components/service-page/services/ServiceCard";
+import FeaturesCard from "@/src/app/components/features/feature/FeaturesCard";
 
 const servicesData = [
 	{
@@ -17,7 +17,7 @@ const servicesData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		title: " Instant Notifications",
+		title: "Instant Notifications",
 		description:
 			"Stay informed with instant notifications for real-time updates and event reminders.",
 		icon: image2,
@@ -51,7 +51,7 @@ const servicesData = [
 	},
 ];
 
-function Services() {
+function Feature() {
 	return (
 		<section className="sofax-section-padding">
 			<div className="container">
@@ -61,7 +61,7 @@ function Services() {
 					</div>
 					{servicesData.map((service, index) => (
 						<FadeInStagger key={service.id} index={index} className="col-lg-6">
-							<ServiceCard service={service} />
+							<FeaturesCard service={service} />
 						</FadeInStagger>
 					))}
 				</div>
@@ -70,4 +70,4 @@ function Services() {
 	);
 }
 
-export default Services;
+export default Feature;

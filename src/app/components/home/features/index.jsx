@@ -1,7 +1,8 @@
-import Icon1 from "@/public/images/v2/icon1.png";
-import Icon2 from "@/public/images/v2/icon2.png";
-import Icon4 from "@/public/images/v2/icon4.png";
-import Icon5 from "@/public/images/v2/icon5.png";
+import image1 from "@/public/images/service/qr-code.png";
+import image2 from "@/public/images/service/notificaiton.png";
+import image3 from "@/public/images/service/online-registration.png";
+import image4 from "@/public/images/service/account-management.png";
+import image5 from "@/public/images/service/achieve.png";
 import Phone from "@/public/images/v2/phone.png";
 import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "@/src/app/components/animation/FadeInStaggerTwo";
@@ -9,7 +10,7 @@ import FadeInUp from "@/src/app/components/animation/FadeInUp";
 import TextSplitFadeIn from "@/src/app/components/animation/TextSplitFadeIn";
 
 function Features() {
-	return (
+	return ( 
 		<section className=" section sofax-section-padding" id="features">
 			<div className="sofax-section-title center">
 				<div className="tg-heading-subheading ">
@@ -24,25 +25,23 @@ function Features() {
 						<FadeInStaggerTwo className="col-lg-4 col-md-12">
 							<FadeInStaggerTwoChildren className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<Image src={Icon1} alt="features" />
+									<Image src={image2} width={55} height={55} alt="features" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>Send & Receive</h4>
+									<h4>Instant Notifications</h4>
 									<p>
-										Sending & receiving cryptocurrencies such as Bitcoin, Ethereum or to other
-										digital assets between deggerent.
+									Stay informed with instant notifications for real-time updates and event reminders.
 									</p>
 								</div>
 							</FadeInStaggerTwoChildren>
 							<FadeInStaggerTwoChildren className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<Image src={Icon2} alt="Feature" />
+									<Image src={image3} width={55} height={55} alt="Feature" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>100% Secure Wallet</h4>
+									<h4>Real-time Registration</h4>
 									<p>
-										Cryptocurrency wallets implement to robust security measures there is no such
-										thing as absolute security.
+									Experience seamless check-ins with real-time registration for a smoother event entry.
 									</p>
 								</div>
 							</FadeInStaggerTwoChildren>
@@ -50,13 +49,12 @@ function Features() {
 						<div className="col-lg-4 col-md-12">
 							<FadeInUp className="sofax-features-box features-v2 position-relative">
 								<div className="sofax-features-icon">
-									<Image src={Icon5} alt="Features Icon" />
+									<Image src={image1} width={55} height={55} alt="Features Icon" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>IOS & Android App</h4>
+									<h4>QR Code</h4>
 									<p>
-										Apps developed using programming languages such as swift or objective-c & are
-										typically distributed.
+									Streamline event access with seamless QR code for faster, contactless entry.
 									</p>
 								</div>
 								<div className="sofax-features-thumb">
@@ -67,25 +65,23 @@ function Features() {
 						<FadeInStaggerTwo className="col-lg-4 col-md-12">
 							<FadeInStaggerTwoChildren className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<Image src={Icon4} alt="Feature Ion" />
+									<Image src={image4} width={55} height={55} alt="Feature Ion" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>Tranding Charts</h4>
+									<h4>Registration Management</h4>
 									<p>
-										Traders investors & analyze historical price data, identify trendsand, make
-										informed decisions about buying.
+									Effortlessly manage attendee registrations for a smooth and organized event experience.
 									</p>
 								</div>
 							</FadeInStaggerTwoChildren>
 							<div className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<Image src={Icon5} alt="Icon 5" />
+									<Image src={image5} width={55} height={55} alt="Icon 5" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>Real Time Tranding</h4>
+									<h4>Instant Badge Printing</h4>
 									<p>
-										This data includes current prices that trading volume, bid-ask to spreads or
-										order book depth & relevant metrics.
+									Quick and efficient instant badge printing for fast, professional event check-ins.
 									</p>
 								</div>
 							</div>
