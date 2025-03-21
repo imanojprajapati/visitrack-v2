@@ -1,7 +1,7 @@
 import Thumb2 from "@/public/images/v2/contentthumb2.png";
-import Icon6 from "@/public/images/v2/icon6.png";
-import Icon7 from "@/public/images/v2/icon7.png";
-import Icon8 from "@/public/images/v2/icon8.png";
+import Icon6 from "@/public/images/aboutone/time-management.png";
+import Icon7 from "@/public/images/aboutone/data-protection.png";
+import Icon8 from "@/public/images/aboutone/customer-support.png";
 import Image from "next/image";
 import FadeInRight from "@/src/app/components/animation/FadeInRight";
 import TextSplitFadeIn from "@/src/app/components/animation/TextSplitFadeIn";
@@ -29,7 +29,7 @@ function AboutOne() {
 							<div className="extra-mt">
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<Image src={Icon6} alt="Icon6" />
+										<Image src={Icon6} width={50} height={50} alt="Icon6" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4 className="all-heading-color">All-in-One Event Management</h4>
@@ -40,7 +40,7 @@ function AboutOne() {
 								</div>
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<Image src={Icon7} alt="Icon" />
+										<Image src={Icon7} width={50} height={50} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4 className="all-heading-color">Data Security</h4>
@@ -51,7 +51,7 @@ function AboutOne() {
 								</div>
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<Image src={Icon8} alt="Icon" />
+										<Image src={Icon8} width={50} height={50} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4 className="all-heading-color">Instant Support</h4>

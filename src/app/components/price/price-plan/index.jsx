@@ -2,7 +2,7 @@
 import Icon5 from "@/public/images/v1/icon5.png";
 import Icon6 from "@/public/images/v1/icon6.png";
 import Icon7 from "@/public/images/v1/icon7.png";
-import featureIcon from "@/public/images/v1/icon8.png";
+import featureIcon from "@/public/images/checked.png";
 import { useState } from "react";
 import FadeInStagger from "@/src/app/components/animation/FadeInStagger";
 import PricingCard from "@/src/app/components/price/price-plan/PricingCard";

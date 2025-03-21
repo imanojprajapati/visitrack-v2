@@ -1,4 +1,4 @@
-import Icon from "@/public/images/v2/icon9.png";
+import Icon from "@/public/images/arrows/arrow-down.png";
 import Image from "next/image";
 
 function FaqAccordion() {

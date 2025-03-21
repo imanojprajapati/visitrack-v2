@@ -8,7 +8,7 @@ function FeaturesCard({ service: { title, description, icon } }) {
 				<p className="all-para-color">{description}</p>
 			</div>
 			<div className="sofax-service-iconbox-icon">
-				<Image src={icon} width={110} height={110} alt="icon" />
+				<Image src={icon} width={90} height={90} alt="icon" />
 			</div>
 		</div>
 	);

@@ -1,5 +1,5 @@
 import image1 from "@/public/images/service/qr-code.png";
-import image2 from "@/public/images/service/notificaiton.png";
+import image2 from "@/public/images/service/notification.png";
 import image3 from "@/public/images/service/online-registration.png";
 import image4 from "@/public/images/service/account-management.png";
 import image5 from "@/public/images/service/achieve.png";
