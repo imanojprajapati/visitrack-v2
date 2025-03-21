@@ -167,13 +167,13 @@ textarea {
 }
 
 ::-moz-selection {
-	background-color: #989ffd;
-	color: #fff;
+	background-color: #005CC6;
+	color: #fefefe;
 }
 
 ::selection {
-	background-color: #989ffd;
-	color: #fff;
+	background-color: #005CC6;
+	color: #fefefe;
 }
 
 button:active,
