@@ -77,8 +77,8 @@ function Testimonials() {
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading">
-						<h2>
-							<TextSplitFadeIn> Trusted by more than 100K+ people </TextSplitFadeIn>
+						<h2 className="all-heading-color">
+							<TextSplitFadeIn>Trusted by more than 100K+ people</TextSplitFadeIn>
 						</h2>
 					</div>
 				</div>

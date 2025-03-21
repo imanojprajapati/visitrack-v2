@@ -18,11 +18,11 @@ function WhyChooseUs() {
 					<div className="col-lg-7">
 						<div className="sofax-default-content fs-19">
 							<div className="tg-heading-subheading ">
-								<h2 className="tac">
+								<h2 className="tac all-heading-color">
 									<TextSplitFadeIn> Streamline Your Event Management with VISITRACK</TextSplitFadeIn>
 								</h2>
 							</div>
-							<p className="tac">
+							<p className="tac all-para-color">
 								Organize your events with ease! VISITRACK offers a seamless, secure, and efficient solution for registration, check-ins, and real-time tracking, ensuring a hassle-free experience for both organizers and attendees.
 							</p>
 							<div className="extra-mt">
@@ -30,7 +30,7 @@ function WhyChooseUs() {
 									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
 										<h3 className="accordion-header sofax-accordion-header">
 											<button
-												className="accordion-button"
+												className="accordion-button all-heading-color"
 												type="button"
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseOne"
@@ -46,7 +46,7 @@ function WhyChooseUs() {
 											className="accordion-collapse collapse show"
 											data-bs-parent="#sofax-accordion"
 										>
-											<div className="accordion-body sofax-accordion-body">
+											<div className="accordion-body sofax-accordion-body all-para-color">
 												Simplify the registration process with VISITRACK’s online pre-registration and on-site kiosks. Enhance security and efficiency through QR code-based check-ins for seamless entry.
 											</div>
 										</div>
@@ -54,7 +54,7 @@ function WhyChooseUs() {
 									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
 										<h3 className="accordion-header sofax-accordion-header" id="headingOne">
 											<button
-												className="accordion-button"
+												className="accordion-button all-heading-color"
 												type="button"
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseTwo"
@@ -70,7 +70,7 @@ function WhyChooseUs() {
 											className="accordion-collapse collapse"
 											data-bs-parent="#sofax-accordion"
 										>
-											<div className="accordion-body sofax-accordion-body">
+											<div className="accordion-body sofax-accordion-body all-para-color">
 												Monitor real-time attendee movements with VISITRACK’s entry and exit tracking. Our live dashboards provide up-to-the-minute data on visitor attendance, helping you optimize your event flow.
 											</div>
 										</div>
@@ -78,7 +78,7 @@ function WhyChooseUs() {
 									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
 										<h3 className="accordion-header sofax-accordion-header">
 											<button
-												className="accordion-button collapsed"
+												className="accordion-button collapsed all-heading-color"
 												type="button"
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseThree"
@@ -94,7 +94,7 @@ function WhyChooseUs() {
 											className="accordion-collapse collapse"
 											data-bs-parent="#sofax-accordion"
 										>
-											<div className="accordion-body sofax-accordion-body">
+											<div className="accordion-body sofax-accordion-body all-para-color">
 												Produce customizable, RFID-enabled badges for each attendee. VISITRACK ensures that only authorized individuals have access to restricted event areas.
 											</div>
 										</div>

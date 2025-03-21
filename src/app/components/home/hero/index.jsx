@@ -14,13 +14,13 @@ function Hero() {
 					<div className="col-lg-7">
 						<div className="sofax-hero-content">
 							<h2
-								className="slider-custom-anim-left"
+								className="slider-custom-anim-left all-heading-color"
 								data-ani="slider-custom-anim-left"
 								data-ani-delay="0.3s"
 							>
 								Track and Manage Your Events Effortlessly with VISITRACK
 							</h2>
-							<p>
+							<p className="all-para-color">
 								VISITRACK revolutionizes event management. From smooth registration to real-time tracking and secure analytics, it’s all at your fingertips. Organize smarter, faster, and with full control.
 							</p>
 							<div className="extra-mt">

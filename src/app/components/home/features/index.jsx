@@ -14,8 +14,8 @@ function Features() {
 		<section className=" section sofax-section-padding" id="features">
 			<div className="sofax-section-title center">
 				<div className="tg-heading-subheading ">
-					<h2>
-						<TextSplitFadeIn>Secure solutions for your digital assets</TextSplitFadeIn>
+					<h2 className="all-heading-color">
+						<TextSplitFadeIn>Your Event, Simplified with Seamless Features</TextSplitFadeIn>
 					</h2>
 				</div>
 			</div>
@@ -28,8 +28,8 @@ function Features() {
 									<Image src={image2} width={55} height={55} alt="features" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>Instant Notifications</h4>
-									<p>
+									<h4 className="all-heading-color">Instant Notifications</h4>
+									<p className="all-para-color">
 									Stay informed with instant notifications for real-time updates and event reminders.
 									</p>
 								</div>
@@ -39,8 +39,8 @@ function Features() {
 									<Image src={image3} width={55} height={55} alt="Feature" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>Real-time Registration</h4>
-									<p>
+									<h4 className="all-heading-color">Real-time Registration</h4>
+									<p className="all-para-color">
 									Experience seamless check-ins with real-time registration for a smoother event entry.
 									</p>
 								</div>
@@ -52,8 +52,8 @@ function Features() {
 									<Image src={image1} width={55} height={55} alt="Features Icon" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>QR Code</h4>
-									<p>
+									<h4 className="all-heading-color">QR Code</h4>
+									<p className="all-para-color">
 									Streamline event access with seamless QR code for faster, contactless entry.
 									</p>
 								</div>
@@ -68,8 +68,8 @@ function Features() {
 									<Image src={image4} width={55} height={55} alt="Feature Ion" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>Registration Management</h4>
-									<p>
+									<h4 className="all-heading-color">Registration Management</h4>
+									<p className="all-para-color">
 									Effortlessly manage attendee registrations for a smooth and organized event experience.
 									</p>
 								</div>
@@ -79,8 +79,8 @@ function Features() {
 									<Image src={image5} width={55} height={55} alt="Icon 5" />
 								</div>
 								<div className="sofax-features-content">
-									<h4>Instant Badge Printing</h4>
-									<p>
+									<h4 className="all-heading-color">Instant Badge Printing</h4>
+									<p className="all-para-color">
 									Quick and efficient instant badge printing for fast, professional event check-ins.
 									</p>
 								</div>

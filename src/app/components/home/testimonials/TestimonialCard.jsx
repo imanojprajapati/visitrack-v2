@@ -21,10 +21,10 @@ function TestimonialCard({ testimonial: { rating, content, author, designation, 
 								))}
 							</ul>
 						</div>
-						<p> {content}</p>
+						<p className="all-para-color">{content}</p>
 						<div className="testimonial-author">
-							<h4>{author}</h4>
-							<p>{designation}</p>
+							<h4 className="all-heading-color">{author}</h4>
+							<p className="all-para-color">{designation}</p>
 						</div>
 					</div>
 				</div>

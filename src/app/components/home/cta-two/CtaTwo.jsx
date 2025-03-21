@@ -21,11 +21,11 @@ function CtaTwo() {
 					<div className="col-lg-7 d-flex align-items-center">
 						<div className="sofax-default-content ml-30">
 							<div className="tg-heading-subheading ">
-								<h2>
+								<h2 className="all-heading-color">
 									<TextSplitFadeIn>Download and Elevate Your Event Management</TextSplitFadeIn>
 								</h2>
 							</div>
-							<p>
+							<p className="all-para-color">
 							Step into the future of event management with VISITRACK! Download our intuitive app, easily register attendees, and streamline check-ins with cutting-edge technology. Enhance security, track real-time data, and optimize every event experience effortlessly.
 							</p>
 							<FadeInUp className="extra-mt">

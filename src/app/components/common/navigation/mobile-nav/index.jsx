@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import NavItem from "./NavItem";
 
-const MobileNavbar = ({ menuItemsData, title, onePage }) => {
+const MobileNavbar = ({ menuItemsData, onePage }) => {
 	const depthLevel = 0;
 	const [showMenu, setShowMenu] = useState(false);
 
@@ -47,7 +47,7 @@ const MobileNavbar = ({ menuItemsData, title, onePage }) => {
 			{showMenu && (
 				<motion.nav className="mobile-navbar" variants={animationVariants} initial="initial" animate="animate">
 					<div className="mobile-menu-head">
-						<div className="mobile-menu-head--title">{title}</div>
+						<div className="mobile-menu-head--title all-heading-color">Visitrack</div>
 						<div className="mobile-menu-head--close" onClick={() => setShowMenu(false)}>
 							&times;
 						</div>

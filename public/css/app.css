@@ -2254,8 +2254,8 @@ a.social-icon img {
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	overflow: hidden;
-	color: var(--heading-color) !important;
-	background-color: var(--accent-color);
+	color: #FEFEFE !important;
+	background: linear-gradient(to right, #00AECD, #005CC6);
 	position: relative;
 	z-index: 0;
 	overflow: hidden;
@@ -3533,6 +3533,9 @@ h1.post__title {
 }
 .sofax-section-padding2 {
 	width: 100%;
+}
+.linear-bg-color {
+	background: linear-gradient(to right, #00AECD, #005CC6);
 }
 
 .sofax-counter-wrap {
@@ -6554,7 +6557,7 @@ a.sofax-connect-login img {
 	padding: 0;
 }
 .sofax-accordion-wrap1 .accordion-icon {
-	background-color: var(--accent-color);
+	background-color: #0086CA;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
@@ -8559,11 +8562,11 @@ button#sofax-submit-btn:hover {
 }
 
 .all-heading-color {
-	color: #005CC6;
+	color: #005CC6 !important;
 }
 
 .all-para-color {
-	color: #00AECD;
+	color: #0086CA !important;
 }
 
 /*1.4 themes css*/

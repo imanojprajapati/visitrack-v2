@@ -19,11 +19,11 @@ function AboutOne() {
 					<div className="col-lg-7">
 						<div className="sofax-default-content">
 							<div className="tg-heading-subheading ">
-								<h2 className="tac">
+								<h2 className="tac all-heading-color">
 									<TextSplitFadeIn> Effortless Event Management, Anytime</TextSplitFadeIn>
 								</h2>
 							</div>
-							<p className="tac">
+							<p className="tac all-para-color">
 								Manage your event on the go with VISITRACK’s mobile app, offering seamless registration, tracking, and analytics anytime, anywhere.
 							</p>
 							<div className="extra-mt">
@@ -32,8 +32,8 @@ function AboutOne() {
 										<Image src={Icon6} alt="Icon6" />
 									</div>
 									<div className="sofax-iconbox-data">
-										<h4>All-in-One Event Management</h4>
-										<p>
+										<h4 className="all-heading-color">All-in-One Event Management</h4>
+										<p className="all-para-color">
 											Streamline registration, badge printing, and tracking in one platform.
 										</p>
 									</div>
@@ -43,8 +43,8 @@ function AboutOne() {
 										<Image src={Icon7} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
-										<h4>Data Security</h4>
-										<p>
+										<h4 className="all-heading-color">Data Security</h4>
+										<p className="all-para-color">
 											Ensure your event data is protected with encryption and GDPR compliance.
 										</p>
 									</div>
@@ -54,8 +54,8 @@ function AboutOne() {
 										<Image src={Icon8} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
-										<h4>Instant Support</h4>
-										<p>
+										<h4 className="all-heading-color">Instant Support</h4>
+										<p className="all-para-color">
 											Get the help you need quickly to keep your event running smoothly.
 										</p>
 									</div>

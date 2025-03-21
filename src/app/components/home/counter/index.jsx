@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 function Counter() {
   return (
-    <section className="section sofax-section-padding2 dark-bg" id="fact">
+    <section className="section sofax-section-padding2 linear-bg-color" id="fact">
       <div id="sofax-counter"></div>
       <div className="container">
         <div className="sofax-counter-wrap">

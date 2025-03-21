@@ -18,16 +18,16 @@ function CtaOne() {
 					<div className="col-lg-7">
 						<div className="sofax-default-content tac">
 							<div className="tg-heading-subheading ">
-								<h2>
+								<h2 className="all-heading-color">
 									<TextSplitFadeIn>
 										Streamline event management with VISITRACK.
 									</TextSplitFadeIn>
 								</h2>
 							</div>
-							<p>
+							<p className="all-para-color">
 								Experience hassle-free event management with VISITRACK. From seamless visitor registration to real-time tracking, we provide everything you need to enhance attendee experience and boost event security.
 							</p>
-							<p>
+							<p className="all-para-color">
 								Whether it’s a corporate conference or a trade show, VISITRACK offers robust analytics, badge printing, and live insights, making it the ultimate solution for modern event organizers.
 							</p>
 							<FadeInUp className="extra-mt">

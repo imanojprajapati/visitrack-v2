@@ -7,7 +7,7 @@ function Faq() {
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading">
-						<h2>
+						<h2 className="all-heading-color">
 							<TextSplitFadeIn> If you want to know anything asked us </TextSplitFadeIn>
 						</h2>
 					</div>

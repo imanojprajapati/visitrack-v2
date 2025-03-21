@@ -107,7 +107,7 @@ const swiperSettings = {
 
 function LogoSlider() {
 	return (
-		<div className="section sofax-section-padding2 dark-bg">
+		<div className="section sofax-section-padding2 linear-bg-color">
 			<div className="sofax-slider-logo-wrap">
 				{
 					<Swiper {...swiperSettings}>
