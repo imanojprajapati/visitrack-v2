@@ -3,7 +3,7 @@ import Link from "next/link";
 import CopyRight from "./CopyRight";
 
 import Field from "@/src/app/components/common/Field";
-import Logo from "@/public/images/mains/main-logo.png";
+import Logo from "@/public/images/mains/footer-logo.png";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
@@ -21,7 +21,7 @@ function Footer() {
 		console.log("Submited Form Data = ", formData);
 	};
 	return (
-		<footer className="sofax-footer-section dark-bg">
+		<footer className="sofax-footer-section linear-bg-color">
 			<ToastContainer position="bottom-right" />
 			<div className="container">
 				<div className="sofax-footer-top">
@@ -29,7 +29,7 @@ function Footer() {
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr-15 light-color">
 								<Link href="/multi-page/home-two">
-									<Image src={Logo} alt="Logo" />
+									<Image src={Logo} width={150} height={100} alt="Logo" />
 								</Link>
 								<p>
 								VISITRACK streamlines event management with easy registration, real-time tracking, and enhanced security.

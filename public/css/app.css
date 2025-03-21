@@ -2109,7 +2109,7 @@ a.social-icon img {
 	margin: 0;
 }
 .sofax-footer-bottom.dark-bottom {
-	border-top: 1px solid var(--body-color);
+	border-top: 1px solid #FEFEFE;
 }
 .sofax-footer-bottom.dark-bottom p {
 	color: var(--white-color);
@@ -2640,7 +2640,8 @@ button#sofax-subscription-btn:hover {
 
 .sofax-subcribe-btn2 {
 	font-weight: 700;
-	background-color: var(--accent-color);
+	background-color: #FEFEFE;
+	color: #0e0e0e;
 	border-radius: 50px;
 	font-size: 16px;
 	padding: 8px;
@@ -2651,8 +2652,7 @@ button#sofax-subscription-btn:hover {
 	transition: all 0.4s;
 }
 .sofax-subcribe-btn2:hover {
-	background: var(--dark-bg);
-	color: var(--white-color);
+	box-shadow: 0 0 15px 5px #FEFEFE;
 }
 .sofax-subcribe-btn2.subscription-btn-hover:hover {
 	background: var(--white-color);
