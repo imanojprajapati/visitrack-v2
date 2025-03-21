@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 function BreadCrumb({ title }) {
 	return (
-		<div className="sofax-breadcrumb">
+		<div className="sofax-breadcrumb linear-bg-color">
 			<div className="container">
-				<h1 className="post__title">{title}</h1>
+				<h1 className="post__title all-title-white-color">{title}</h1>
 				<nav className="breadcrumbs">
 					<ul>
 						<li>
@@ -14,7 +14,7 @@ function BreadCrumb({ title }) {
 						<li>
 							<Image src={Arrow} alt="arrow" />
 						</li>
-						<li aria-current="page"> {title}</li>
+						<li aria-current="page" className="all-title-white-color"> {title}</li>
 					</ul>
 				</nav>
 			</div>

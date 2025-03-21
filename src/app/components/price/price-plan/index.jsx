@@ -79,12 +79,12 @@ function PricePlan() {
 			<div className="container">
 				<div className="sofax-section-title center pb-50">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>Discover the right price plan for you</h2>
+						<h2 className="all-heading-color">Discover the right price plan for you</h2>
 					</div>
 				</div>
 
 				<div className="pricing-btn">
-					<label>Per Month</label>
+					<label className="all-heading-color">Per Month</label>
 					<div className="toggle-btn">
 						<input
 							className="form-check-input btn-toggle price-deck-trigger"
@@ -92,7 +92,7 @@ function PricePlan() {
 							onChange={handleChange}
 						/>
 					</div>
-					<label>Per Year</label>
+					<label className="all-heading-color">Per Year</label>
 				</div>
 
 				<div className="row" id="table-price-value">

@@ -53,7 +53,7 @@ const swiperSettings = {
 
 function AutoSlider() {
 	return (
-		<section className="sofax-service-slider">
+		<section className="sofax-service-slider linear-bg-color">
 			<div className="sofax-slider-service-section">
 				{
 					<Swiper {...swiperSettings}>

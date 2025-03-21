@@ -57,7 +57,7 @@ function Feature() {
 			<div className="container">
 				<div className="row">
 					<div className="sofax-section-title center">
-						<h2>We deliver powerful features</h2>
+						<h2 className="all-heading-color">We deliver powerful features</h2>
 					</div>
 					{servicesData.map((service, index) => (
 						<FadeInStagger key={service.id} index={index} className="col-lg-6">

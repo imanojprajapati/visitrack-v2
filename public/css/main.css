@@ -1137,7 +1137,7 @@ a.log-in-btn:hover:after {
 }
 .sofax-testimonial-2column-slider .swiper-button-prev:hover,
 .sofax-testimonial-2column-slider .swiper-button-next:hover {
-	background-color: var(--green-bg);
+	background-color: #005CC6;
 }
 
 /* Home four */
@@ -1185,8 +1185,7 @@ a.log-in-btn:hover:after {
 }
 .sofax-testimonial-2column-sliderv5 .swiper-button-prev:hover,
 .sofax-testimonial-2column-sliderv5 .swiper-button-next:hover {
-	background-color: var(--accent-color);
-	border: 1px solid var(--accent-color);
+	background-color: #005CC6;
 }
 
 /* faq */

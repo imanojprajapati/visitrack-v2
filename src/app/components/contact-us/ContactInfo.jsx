@@ -10,8 +10,8 @@ function ContactInfo() {
 					<Image src={Icon1} alt="Icon chat" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Chat with us</h4>
-					<p>We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.</p>
+					<h4 className="all-heading-color">Chat with us</h4>
+					<p className="all-para-color">We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -19,8 +19,8 @@ function ContactInfo() {
 					<Image src={Icon2} alt="Call icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Give us a call</h4>
-					<p>QGive us a ring at (+9197277 72798). Every monday-friday from 9 am to 5 pm.</p>
+					<h4 className="all-heading-color">Give us a call</h4>
+					<p className="all-para-color">QGive us a ring at (+9197277 72798). Every monday-friday from 9 am to 5 pm.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -28,8 +28,8 @@ function ContactInfo() {
 					<Image src={Icon3} alt="Email Icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Email Us</h4>
-					<p>Drop us an email at example@gmail.com and you'll receive a reply within 24 hours.</p>
+					<h4 className="all-heading-color">Email Us</h4>
+					<p className="all-para-color">Drop us an email at example@gmail.com and you'll receive a reply within 24 hours.</p>
 				</div>
 			</div>
 		</div>

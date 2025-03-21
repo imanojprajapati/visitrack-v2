@@ -17,7 +17,7 @@ function ContactForm() {
 	return (
 		<div className="sofax-field-box ml-50">
 			<ToastContainer position="bottom-right" />
-			<h3>Send us a message</h3>
+			<h3 className="all-heading-color">Send us a message</h3>
 			<form onSubmit={handleSubmit(submitForm)}>
 				<div className="row">
 					<div className="col-lg-6">
@@ -46,14 +46,14 @@ function ContactForm() {
 					</div>
 					<div className="col-lg-12">
 						<div className="sofax-main-field">
-							<label>Your Comment</label>
+							<label className="all-heading-color">Your Comment</label>
 							<textarea name="textarea" placeholder="Write Your Comment"></textarea>
 						</div>
 					</div>
 					<div className="col-lg-12">
 						<div className="sofax-form-box">
 							<input type="checkbox" id="css" />
-							<label htmlFor="css">
+							<label htmlFor="css" className="all-para-color">
 								Save my name, email, & website in this browser for the next time I comment.
 							</label>
 						</div>

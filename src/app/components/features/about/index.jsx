@@ -20,8 +20,8 @@ function About() {
 					</div>
 					<div className="col-lg-7">
 						<div className="sofax-default-content mr-50 tac">
-							<h2>Streamline Event Management with Real-Time Insights</h2>
-							<p>
+							<h2 className="all-heading-color">Streamline Event Management with Real-Time Insights</h2>
+							<p className="all-para-color">
 							Optimize your event experience with instant email confirmations, real-time registration management, and powerful analytics tracking to drive seamless, data-driven decisions.
 							</p>
 							<div className="extra-mt">
@@ -30,8 +30,8 @@ function About() {
 										<Image src={Icon2} width={60} height={60} alt="icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
-										<h4>Email Confirmation</h4>
-										<p>
+										<h4 className="all-heading-color">Email Confirmation</h4>
+										<p className="all-para-color">
 										Effortlessly confirm registrations with instant email confirmations, ensuring smooth communication and a hassle-free event journey.
 										</p>
 									</div>
@@ -41,8 +41,8 @@ function About() {
 										<Image src={Icon3} width={60} height={60} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
-										<h4>Manage Registration in Real Time</h4>
-										<p>
+										<h4 className="all-heading-color">Manage Registration in Real Time</h4>
+										<p className="all-para-color">
 										Efficiently manage registrations as they happen, ensuring your event runs smoothly with up-to-the-minute data and full visibility.
 										</p>
 									</div>
@@ -52,8 +52,8 @@ function About() {
 										<Image src={Icon4} width={60} height={60} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
-										<h4>Analytics Registration Tracking</h4>
-										<p>
+										<h4 className="all-heading-color">Analytics Registration Tracking</h4>
+										<p className="all-para-color">
 										Unlock powerful insights with analytics-driven registration tracking, allowing you to optimize event planning and enhance attendee engagement.
 										</p>
 									</div>
