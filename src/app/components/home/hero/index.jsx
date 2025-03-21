@@ -25,13 +25,13 @@ function Hero() {
 							</p>
 							<div className="extra-mt">
 								<div className="sofax-app-wrap position-relative">
-									<a target="_blank" href="https://www.apple.com/app-store/">
+									{/* <a target="_blank" href="https://www.apple.com/app-store/">
 										<Image src={AppleStore} alt="Apple Store" />
 									</a>
 
 									<a target="_blank" href="https://playstore.com/">
 										<Image src={PlayStore} alt="Play Store" />
-									</a>
+									</a> */}
 									<div className="hero2-shape">
 										<Image src={Shape1} alt="Shape" />
 									</div>

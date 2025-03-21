@@ -1,10 +1,11 @@
 "use client";
-import Alterbone from "@/public/images/v2/1.png";
-import Carbonia from "@/public/images/v2/2.png";
-import Logoipsum from "@/public/images/v2/3.png";
-import Tinygone from "@/public/images/v2/4.png";
-import Waverio from "@/public/images/v2/5.png";
-import Six from "@/public/images/v2/6.png";
+import PhotoVideoAsia from "@/public/images/clients/company1.webp";
+import SoundAndLightAsia from "@/public/images/clients/company2.webp";
+import TentDecorAsia from "@/public/images/clients/company3.png";
+import Decorise from "@/public/images/clients/company4.png";
+import AAKAR from "@/public/images/clients/company5.webp";
+import ABSE from "@/public/images/clients/company6.webp";
+import IHE from "@/public/images/clients/company7.png";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,73 +13,38 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const sliderData = [
 	{
 		id: crypto.randomUUID(),
-		img: Waverio,
-		title: "Tether",
+		img: PhotoVideoAsia,
+		title: "PVA",
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Logoipsum,
-		title: "Ethereum",
+		img: SoundAndLightAsia,
+		title: "S&LA",
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Alterbone,
-		title: "Tron",
+		img: TentDecorAsia,
+		title: "TDA",
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Carbonia,
-		title: "Tezos",
+		img: Decorise,
+		title: "Decorise",
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Tinygone,
-		title: "Algorand",
+		img: AAKAR,
+		title: "AAKAR",
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Waverio,
-		title: "Tether",
+		img: ABSE,
+		title: "ABSE",
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Six,
-		title: "Cardano",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Waverio,
-		title: "Tether",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Logoipsum,
-		title: "Ethereum",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Alterbone,
-		title: "Tron",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Carbonia,
-		title: "Tezos",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Tinygone,
-		title: "Algorand",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Waverio,
-		title: "Tether",
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Six,
-		title: "Cardano",
+		img: IHE,
+		title: "IHE",
 	},
 ];
 
@@ -115,7 +81,7 @@ function LogoSlider() {
 							<SwiperSlide key={item.id}>
 								<div className="sofax-text-slider-wrap">
 									<div className="sofax-text-slider-icon">
-										<Image src={item.img} alt={item.title} />
+										<Image src={item.img}  width={150} height={120} alt={item.title} />
 									</div>
 
 									<div className="sofax-text-slider-data light-color">
