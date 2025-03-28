@@ -3,7 +3,7 @@ import image2 from "@/public/images/service/notification.png";
 import image3 from "@/public/images/service/online-registration.png";
 import image4 from "@/public/images/service/account-management.png";
 import image5 from "@/public/images/service/achieve.png";
-import Phone from "@/public/images/v2/phone.png";
+import Phone from "@/public/images/Mockup/VTM2.png";
 import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "@/src/app/components/animation/FadeInStaggerTwo";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
@@ -58,7 +58,7 @@ function Features() {
 									</p>
 								</div>
 								<div className="sofax-features-thumb">
-									<Image src={Phone} alt="Phone" />
+									<Image src={Phone} className="phone-mockup" alt="Phone" />
 								</div>
 							</FadeInUp>
 						</div>

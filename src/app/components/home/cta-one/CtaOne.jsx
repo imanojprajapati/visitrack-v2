@@ -1,4 +1,4 @@
-import Thumb2 from "@/public/images/v2/contentthumb2.png";
+import Thumb2 from "@/public/images/Mockup/VTM3.png";
 import Image from "next/image";
 import Link from "next/link";
 import FadeInLeft from "@/src/app/components/animation/FadeInLeft";

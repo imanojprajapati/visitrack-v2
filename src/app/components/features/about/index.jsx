@@ -1,7 +1,8 @@
 import Icon2 from "@/public/images/service/email.png";
 import Icon3 from "@/public/images/service/online-registration.png";
 import Icon4 from "@/public/images/service/dashboard.png";
-import Thumb from "@/public/images/service/service-thumb.png";
+// import Thumb from "@/public/images/service/service-thumb.png";
+import Thumb from "@/public/images/Mockup/VTF.webp";
 import Shape1 from "@/public/images/service/shape1.png";
 import Image from "next/image";
 import FadeInRight from "@/src/app/components/animation/FadeInRight";

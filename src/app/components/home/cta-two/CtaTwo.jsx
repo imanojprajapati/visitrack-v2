@@ -1,4 +1,4 @@
-import Thumb2 from "@/public/images/v2/ctathumb.png";
+import Thumb2 from "@/public/images/Mockup/VTM2.png";
 import Shape1 from "@/public/images/v2/shape1.png";
 import Shape3 from "@/public/images/v2/shape3.png";
 import Image from "next/image";

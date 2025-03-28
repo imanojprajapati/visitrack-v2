@@ -159,7 +159,7 @@ textarea {
 	content: " ";
 	/* 1 */
 	display: table;
-	/* 2 */
+	/* 2 */ 
 }
 
 .clearfix:after {
@@ -8583,3 +8583,21 @@ button#sofax-submit-btn:hover {
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+
+@media (min-width: 1400px) and (max-width: 5000px) {
+	.phone-mockup {
+		height: 295px;
+	}
+}	
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.phone-mockup {
+		height: 390px;
+	}
+}	
+
+@media (min-width:400px) and (max-width: 992px) {
+	.phone-mockup {
+		height: 300px;
+	}
+}	

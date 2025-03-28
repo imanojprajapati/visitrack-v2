@@ -1,4 +1,4 @@
-import Thumb from "@/public/images/v2/contentthumb2.png"; 
+import Thumb from "@/public/images/Mockup/VTM5.png"; 
 import Icon from "@/public/images/arrows/arrow-down.png";
 import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "@/src/app/components/animation/FadeInStaggerTwo";

@@ -1,4 +1,4 @@
-import Thumb2 from "@/public/images/v2/contentthumb2.png";
+import Thumb2 from "@/public/images/Mockup/VTM4.png";
 import Icon6 from "@/public/images/aboutone/time-management.png";
 import Icon7 from "@/public/images/aboutone/data-protection.png";
 import Icon8 from "@/public/images/aboutone/customer-support.png";

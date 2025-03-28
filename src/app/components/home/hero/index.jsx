@@ -2,7 +2,7 @@ import AppleStore from "@/public/images/v2/app-store.png";
 import PlayStore from "@/public/images/v2/play-store.png";
 import Shape1 from "@/public/images/v2/shape1.png";
 import Shape2 from "@/public/images/v2/shape2.png";
-import Thumb1 from "@/public/images/v2/thumb1.png";
+import Thumb1 from "@/public/images/Mockup/VTM1.png";
 import Image from "next/image";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
 
